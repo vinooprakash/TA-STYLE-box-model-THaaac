@@ -54,18 +54,15 @@ table {
 
 h1 {
     font-size: 30px;
-    color: black;
-    font-weight: 700;
     background-color: #D18C1D;
     border: 1px solid red;
-    display: inline-block;
+    text-align: center;
     padding: 10px;
 }
 
 p {
     font-size: 18px;
     color: red;
-    font-weight: 400;
     display: block;
     width: 600px;
     height: 400px;
@@ -79,18 +76,19 @@ img {
     height: 200px;
 }
 
-section {
-    display: block;
+.circle {
     background-color: red;
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
 }
 
 a {
-    display: inline;
-    border: 3px dashed blue;
+    display: inline-block;
+    border-bottom: 3px dashed blue;
     background-color: #a1a1a1;
     text-decoration: none;
     color:black;
+    font-size: 18px; 
+    padding: 12px;
 }
