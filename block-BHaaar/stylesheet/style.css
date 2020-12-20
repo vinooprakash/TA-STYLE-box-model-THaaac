@@ -49,92 +49,60 @@ table {
 
 /* Custom Styles */
 
-.googleguide {
+section {
+    width: 1160px;
+    margin: 0 auto;
+    font-size: 0;
+}
+
+.box {
     width: 300px;
     height: 200px;
+    background-color: aqua;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px;
+    color: white;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.big-box {
+    width:500px;
+}
+
+.google {
     background-color: #FE5349;
-    padding: 10px;
-    color: white;
-    margin: 10px;
-    display: inline-block;
 }
 
-.materialdesign {
-    width: 200px;
-    height: 200px;
+.material {
     background-color: #0C8871;
-    padding: 10px;
-    color: white;
-    margin: 10px;
-    display: inline-block;
 }
 
-.doodlearchive {
-    width: 200px;
-    height: 200px;
-    background-color:#B601FF;
-    padding: 10px;
-    color: white;
-    margin: 10px;
-    display: inline-block;
+.doodle {
+    background-color: #B601FF;
 }
 
 .googleplus {
-    width: 200px;
-    height: 200px;
-    background-color: #0DC1FD;
-    padding: 10px;
-    color: white;
-    margin: 10px;
-    display: inline-block;
+    background-color:#0DC1FD;
 }
 
 .designminutes {
-    width: 300px;
-    height: 200px;
     background-color:#08CA80;
-    padding: 10px;
-    color: white;
-    margin: 10px;
-    display: inline-block;
 }
 
 .glassdesigns {
-    width: 200px;
-    height: 200px;
-    background-color:#01F361;
-    padding: 10px;
-    color: white;
-    margin: 10px;
-    display: inline-block;
+    background-color: #01F361;
 }
 
 .htmlbox {
-    width: 200px;
-    height: 200px;
-    background-color:#E8FF1D;
-    padding: 10px;
-    color: white;
-    margin: 10px;
-    display: inline-block;
+    background-color: #E8FF1D;
 }
 
 .cssbox {
-    width: 200px;
-    height: 200px;
-    background-color:#FE7405;
-    padding: 10px;
-    color: white;
-    margin: 10px;
-    display: inline-block;
+    background-color: #FE7405;
 }
 
 .jsbox {
-    width: 300px;
-    height: 200px;
-    background-color:#E52F2D;
-    padding: 10px;
-    color: white;
-    margin: 10px;
-    display: inline-block;
+    background-color: #E52F2D;
 }
