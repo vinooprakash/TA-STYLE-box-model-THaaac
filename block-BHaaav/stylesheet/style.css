@@ -51,92 +51,100 @@ table {
 /* Custom Styles */
 
 body {
-    color: white;
-    font-family: 'Montserrat', sans-serif;
     line-height: 1.5;
+    font-size: 16px;
+    color: #fff;
 }
 
 hr {
-    margin-right: 500px;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin: 32px auto;
+    border: 0;
+    border-bottom: 2px solid #999;
 }
 
-header {
-    background-color: #2D3040;
+.container {
+    width: 1160px;
+    margin: 0 auto;
 }
 
-.header-para
-{
-    text-transform: uppercase;
-    color: gray;
+.header {
+    background-color: #2d3040;
+    text-align: center;
+    padding: 32px 0;
 }
 
 h1 {
-    text-align: center;
-    font-size: 30px;
-    padding: 20px;
+    font-size: 36px;
+    margin-bottom: 16px;
 }
 
-h2 {
-    font-size: 30px;
-    font-weight: 600;
-}
-.navbar {
-    text-align: center;
-}
-
-a {
+.header a {
+    font-size: 16px;
+    color: #fff;
     text-decoration: none;
-    color: white;
-    font-size: 14px;
-    margin: 10px;
+    text-transform: uppercase;
+    margin: 0 16px;
 }
 
-.main-header {
-    padding: 100px;
+.hero {
+    background-color: #2d3040;
+    padding: 120px 0;
+}
+
+.hero-heading {
+    font-size: 32px;
+    text-transform: uppercase;
+}
+
+.hero-text {
+    text-transform: uppercase;
+    color: #ccc;
+    font-size: 18px;
 }
 
 img {
     width: 200px;
     height: 200px;
     border-radius: 50%;
+    object-fit: cover;
 }
 
-h3 {
-    color: white;
-    padding-bottom: 20px;
+.blog-title {
+    font-size: 24px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.blog{
+    background-color: #4C5C96;
+    padding: 60px 0;
+}
+
+.blog-two {
+    background-color: #45558D;
+}
+
+.blog-three {
+    background-color: #3F4E85;
+}
+.blog-content {
+    color: #ccc;
+    font-size: 22px;
+    margin-bottom: 22px;
 }
 
 .learn-more {
-    padding-top: 20px;
-    padding-bottom: 20px;
-    font-weight: 600;
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+
 }
 
-.article-one {
-    background-color: #4C5C96;
-    padding-left: 100px;
-    padding-top: 30px;
-}
-
-.article-two {
-    background-color: #45558D;
-    padding-left: 100px;
-    padding-top: 30px;
-}
-
-.article-three {
-    background-color: #3F4E85;
-    padding-left: 100px;
-    padding-top: 30px;
-}
-
-footer {
-    padding-left: 120px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    color: whitesmoke;
-    background-color: #2D3040;
-    font-size: 10px;
+.footer
+{
+    background-color: #2d3040;
+    padding: 20px 0;
+    font-size: 15px;
+    color: #ccc;
 }

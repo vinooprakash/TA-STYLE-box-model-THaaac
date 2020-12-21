@@ -5,53 +5,66 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Box Model Assignment 7</title>
     <link rel="stylesheet" href="stylesheet/style.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <h1>Solid State</h1>
-        <div class="navbar">
-            <nav>
-                <a href="#">HOME</a>
-                <a href="#">GENERIC</a>
-                <a href="#">ELEMENTS</a>
-                <a href="#">LOG IN</a>
-                <a href="#">SIGN UP</a>
-            </nav>
-        </div>
-        <section class="main-header">
-            <h2>THIS IS SOLID STATE</h2>
-            <hr>
-            <p class="header-para">Lorem ipsum dolor sit amet consectetur adipisicing</p>
-        </section>
+    <header class="header">
+        <h1> Solid State</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Generic</a>
+            <a href="#">Elements</a>
+            <a href="#">Log In</a>
+            <a href="#">Sign Up</a>
+        </nav>
     </header>
-
     <main>
-        <section class="article-one">
-            <h3>MAGNA ARCAU FEUGAT</h3>
-            <img src="/img/camera.jpg" alt="Polaroid Camera">
-            <hr>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo cumque quo iste, enim, voluptates a quas odit eos dolorum eius ea, numquam neque pariatur animi. Saepe dolor tempora debitis id consequuntur autem eaque labore minus pariatur doloribus. Saepe, nobis vero iure, dolor quidem nihil odio recusandae ipsum aliquam minus similique distinctio aut, nulla accusamus officia ad error id doloremque aperiam.</p>
-            <p class="learn-more">LEARN MORE</p>
+        <section class="hero">
+            <div class="container">
+                <h2 class="hero-heading">This is solid state</h2>
+                <hr>
+                <p class="hero-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit ipsam</p>
+            </div>
         </section>
-        <section class="article-two">
-            <h3>MAGNA ARCAU FEUGAT</h3>
-            <img src="/img/cliff.jpg" alt="Cliff">
-            <hr>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo cumque quo iste, enim, voluptates a quas odit eos dolorum eius ea, numquam neque pariatur animi. Saepe dolor tempora debitis id consequuntur autem eaque labore minus pariatur doloribus. Saepe, nobis vero iure, dolor quidem nihil odio recusandae ipsum aliquam minus similique distinctio aut, nulla accusamus officia ad error id doloremque aperiam.</p>
-            <p class="learn-more">LEARN MORE</p>
+        <section class="blog">
+            <article class="articles container">
+                <header>
+                    <h3 class="blog-title">magna arcu feugiat</h3>
+                    <img src="/img/camera.jpg" alt="Camera">
+                </header>
+                <hr>
+                <p class="blog-content">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam explicabo incidunt ratione dolorem possimus quasi inventore sequi asperiores esse autem praesentium, voluptatem illo, ad adipisci quisquam veritatis neque, doloremque necessitatibus.</p>
+                <a class="learn-more" href="#">Learn More</a>
+            </article>
         </section>
-        <section class="article-three">
-            <h3>MAGNA ARCAU FEUGAT</h3>
-            <img src="/img/wood.jpg" alt="Wood">
-            <hr>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo cumque quo iste, enim, voluptates a quas odit eos dolorum eius ea, numquam neque pariatur animi. Saepe dolor tempora debitis id consequuntur autem eaque labore minus pariatur doloribus. Saepe, nobis vero iure, dolor quidem nihil odio recusandae ipsum aliquam minus similique distinctio aut, nulla accusamus officia ad error id doloremque aperiam.</p>
-            <p class="learn-more">LEARN MORE</p>
+        <section class="blog blog-two">
+            <article class="articles container">
+                <header>
+                    <h3 class="blog-title">magna arcu feugiat</h3>
+                    <img src="/img/cliff.jpg" alt="Cliff">
+                </header>
+                <hr>
+                <p class="blog-content">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam explicabo incidunt ratione dolorem possimus quasi inventore sequi asperiores esse autem praesentium, voluptatem illo, ad adipisci quisquam veritatis neque, doloremque necessitatibus.</p>
+                <a class="learn-more" href="#">Learn More</a>
+            </article>
+        </section>
+        <section class="blog blog-three">
+            <article class="articles container">
+                <header>
+                    <h3 class="blog-title">magna arcu feugiat</h3>
+                    <img src="/img/wood.jpg" alt="Wood">
+                </header>
+                <hr>
+                <p class="blog-content">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam explicabo incidunt ratione dolorem possimus quasi inventore sequi asperiores esse autem praesentium, voluptatem illo, ad adipisci quisquam veritatis neque, doloremque necessitatibus.</p>
+                <a class="learn-more" href="#">Learn More</a>
+            </article>
         </section>
     </main>
-    <footer>
-        <p>&copy; Untitled Inc. All rights reserved</p>
+    <footer class="footer">
+        <div class="container">
+            <small>
+                &copy; Untitled Inc. All Rights Reserved.
+            </small>
+        </div>
     </footer>
 </body>
 </html>
