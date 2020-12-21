@@ -1,0 +1,142 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/* Custom Styles */
+
+body {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.5;
+}
+
+hr {
+    margin-right: 500px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+header {
+    background-color: #2D3040;
+}
+
+.header-para
+{
+    text-transform: uppercase;
+    color: gray;
+}
+
+h1 {
+    text-align: center;
+    font-size: 30px;
+    padding: 20px;
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: 600;
+}
+.navbar {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    margin: 10px;
+}
+
+.main-header {
+    padding: 100px;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+h3 {
+    color: white;
+    padding-bottom: 20px;
+}
+
+.learn-more {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-weight: 600;
+}
+
+.article-one {
+    background-color: #4C5C96;
+    padding-left: 100px;
+    padding-top: 30px;
+}
+
+.article-two {
+    background-color: #45558D;
+    padding-left: 100px;
+    padding-top: 30px;
+}
+
+.article-three {
+    background-color: #3F4E85;
+    padding-left: 100px;
+    padding-top: 30px;
+}
+
+footer {
+    padding-left: 120px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: whitesmoke;
+    background-color: #2D3040;
+    font-size: 10px;
+}
