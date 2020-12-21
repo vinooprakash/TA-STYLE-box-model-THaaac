@@ -47,87 +47,106 @@ table {
 	border-spacing: 0;
 }
 
-/* Custom Styling */
 
-section {
-    width: 800px;
-    margin: 0 auto;
-    font-size: 0;
+/* Custom Styles */
+
+body {
+    line-height: 1.5;
+    padding-bottom: 200px;
 }
 
 h1 {
-    font-size: 32px;
     text-align: center;
-    padding: 20px;
+    font-size: 40px;
+    padding: 20px 180px;
+}
+
+hr {
+    width: 500px;
+    border-style: dashed;
+    margin: 32px auto;
+    border-color: gray;
 }
 
 h2 {
     font-size: 30px;
     text-align: center;
-    padding: 20px;
-    margin: 10px;
+    margin: 20px;
+    padding: 10px;
 }
+
+/* 
+section {
+    text-align: center;
+} */
 
 .box {
-    width: 100px;
-    height: 100px;
-    background-color:#DAFAD4;
+    width: 200px;
+    height: 200px;
+    background-color: #bada55;
+    /* display: inline-block; */
     margin: 0 auto;
-    border: 8px solid #ADD8E6;
-    outline: 5px solid black;
-    box-shadow: 0 0 0 16px #ED7F80;
+    border: 20px solid #add8e6;
+    outline: 10px solid black;
+    box-shadow: 0 0 0 30px #ed7f80;
 }
 
-.boxcircle {
-    width: 1px;
-    height: 1px;
-    border-radius: 50%;
-    background-color: red;
-    display: inline-block;
-    padding: 20px;
-    margin: 20px;
-}
-
-h4 {
-    font-size: 20px;
+.marker-container {
     text-align: center;
-    margin: 10px;
+    margin-top: 40px;
+}
+
+.circle {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #bada55;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.padding {
+    background-color: #add8e6;
+}
+
+.border {
+    background-color: black;
+}
+
+.margin {
+    background-color: #ed7f80;
+}
+
+.marker {
+    margin:0 16px;
+    display: inline-block;
+}
+
+p {
+    text-align: center;
+    font-size: 24px;
 }
 
 .container {
     width: 600px;
-    border: 1px solid black;
-    margin: 0 auto;
+    border: 1px solid gray;
+    margin: 12px auto;
+    font-size: 0;
 }
 
-.noborder {
+.child-box {
     width: 180px;
     height: 100px;
     margin: 10px;
-    background-color: #CCCCCC;
+    background-color: gray;
     display: inline-block;
-    box-sizing: border-box;
-}
-
-hr {
-    margin: 20px;
 }
 
 .border {
-    width: 180px;
-    height: 100px;
-    margin: 10px;
-    background-color: #CCCCCC;
     border: 1px solid black;
-    display: inline-block;
 }
 
-.sameline-border {
-    width: 180px;
-    height: 100px;
-    margin: 10px;
-    background-color: #CCCCCC;
-    border: 1px solid black;
-    display: inline-block;
+.sameline {
     box-sizing: border-box;
 }
